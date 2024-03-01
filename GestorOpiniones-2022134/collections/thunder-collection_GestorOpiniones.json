@@ -1,0 +1,458 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorOpiniones",
+    "dateExported": "2024-03-01T14:42:27.650Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-01T02:13:01.258Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "00325eb1-5a7a-4f3f-8a2e-9ea4d048b19a",
+            "name": "publication",
+            "containerId": "",
+            "created": "2024-03-01T02:13:01.259Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "comment",
+            "containerId": "",
+            "created": "2024-03-01T02:13:01.260Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6829a6a7-f163-4851-8df3-5c611bcd5237",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "register",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T02:13:01.258Z",
+            "modified": "2024-03-01T13:29:49.943Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Franco "
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Paiz "
+                    },
+                    {
+                        "name": "username",
+                        "value": "fpaiz3"
+                    },
+                    {
+                        "name": "email",
+                        "value": "fpaiz3@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Villa Nueva, Guatemala."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "76b76000-8f81-477e-a5c1-224c2f97ab64",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "login",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T02:13:01.259Z",
+            "modified": "2024-03-01T14:39:33.962Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "fpaiz2"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "fpaiz3@gmail.com",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "59fc54f1-c53e-4b42-b413-8f08180405cd",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "update",
+            "url": "/user/update/65e1d84dd4688e2664b7e0fb",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-01T02:13:01.260Z",
+            "modified": "2024-03-01T13:33:03.124Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTI5OTg1NCwiZXhwIjoxNzA5MzEwNjU0fQ.ziHogtOGyOVuuTTBs5GR91f1lIePLJ-0odPacSgwi04"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "lastPassword",
+                        "value": "12345678",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "password",
+                        "value": "87654321",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "name",
+                        "value": "Franco Alejandro"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Paiz González"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "86c47ef1-cc00-4066-a2bd-06b7a898d62b",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "00325eb1-5a7a-4f3f-8a2e-9ea4d048b19a",
+            "name": "createPost",
+            "url": "/publication/createPost",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-01T02:13:01.261Z",
+            "modified": "2024-03-01T13:40:24.294Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTMwMDE3MywiZXhwIjoxNzA5MzEwOTczfQ.Zq37SztChM_t4YvRfdoiMhzoRAqA5aoEAMF5IsrN-sk"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "La Casa Blanca pide dejar de usar lenguajes de programación basados en C/C++"
+                    },
+                    {
+                        "name": "category",
+                        "value": "Tecnología"
+                    },
+                    {
+                        "name": "mainText",
+                        "value": "En su lugar, el gobierno estadounidense pide apostar por Rust, C#, JavaScript."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c8826058-4e95-49fb-808e-d03508c9e269",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "00325eb1-5a7a-4f3f-8a2e-9ea4d048b19a",
+            "name": "getPosts",
+            "url": "/publication/getPosts",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-01T02:13:01.262Z",
+            "modified": "2024-03-01T13:41:23.464Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTMwMDE3MywiZXhwIjoxNzA5MzEwOTczfQ.Zq37SztChM_t4YvRfdoiMhzoRAqA5aoEAMF5IsrN-sk"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e4c04411-384d-49a2-a8ca-9ab9249868cc",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "00325eb1-5a7a-4f3f-8a2e-9ea4d048b19a",
+            "name": "updatePost",
+            "url": "/publication/updatePost/65e1dac8d4688e2664b7e10f",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-03-01T02:13:01.263Z",
+            "modified": "2024-03-01T13:51:27.876Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTMwMTA3NiwiZXhwIjoxNzA5MzExODc2fQ.XNlLdoyAE_0eC7qrkr5qnVOOtlBi_1VrYeWJhnEWaKQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "Tecnología e informática."
+                    },
+                    {
+                        "name": "title",
+                        "value": "La Casa Blanca exige dejar de usar lenguajes basados en C/C++"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ab561b85-9e76-4337-892b-81b38bb69322",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "00325eb1-5a7a-4f3f-8a2e-9ea4d048b19a",
+            "name": "deletePost",
+            "url": "/publication/deletePost/65e1dac8d4688e2664b7e10f",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-03-01T02:13:01.264Z",
+            "modified": "2024-03-01T13:52:50.657Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTMwMTE1NywiZXhwIjoxNzA5MzExOTU3fQ.41cBhAxZlysGxm39dK1d7Iipliml2T10UAbZ4s0JCqc"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d0f69d11-59ce-4aa2-b33c-112ff6bc7b3a",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "createComment",
+            "url": "/comment/createComment",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-03-01T02:13:01.265Z",
+            "modified": "2024-03-01T14:02:46.106Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "text",
+                        "value": "Estoy de acuerdo, debemos detener la IA."
+                    },
+                    {
+                        "name": "publication",
+                        "value": "65e09c6cff72864413ae5078"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2fbbe832-696e-4125-a00b-ba36166e1c94",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "test",
+            "url": "/comment/test",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-03-01T02:13:01.266Z",
+            "modified": "2024-03-01T02:13:01.266Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c2b13cc8-1b78-46b9-9cef-661715e8c2a9",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "getComments",
+            "url": "/comment/getComments",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-03-01T02:13:01.267Z",
+            "modified": "2024-03-01T14:01:55.497Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e215747b-4b9a-4b37-a173-f586ed9f5b4a",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "getMyComments",
+            "url": "/comment/getMyComments",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-03-01T02:13:01.268Z",
+            "modified": "2024-03-01T14:04:44.236Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9046955e-2720-43df-bec8-3927722fa7f8",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "updateComment",
+            "url": "/comment/updateComment/65e1e13432ba31a0ae259077",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-03-01T02:13:01.269Z",
+            "modified": "2024-03-01T14:20:15.822Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI3OTcsImV4cCI6MTcwOTMxMzU5N30.x-sF4puBN71qY7hQqbtkxbaiTjYQ14eSVBQ7J5rPUjM"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "text",
+                        "value": "Pienso que los programadores pueden encargarse de eso."
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "67f7c12b-d785-4a96-8665-b62447213b4e",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "9836e9c6-1189-447a-ab8a-f9bbace3d72b",
+            "name": "deleteComment",
+            "url": "/comment/deleteComment/65e1e03ea44311d1dc65f8d1",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-03-01T02:13:01.270Z",
+            "modified": "2024-03-01T14:22:48.270Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c0f63ef1-fba5-49af-9748-3eb7618ad84f",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "updatePassword",
+            "url": "/user/updatePassword/65df40cfd202d402ec1d1bce",
+            "method": "PUT",
+            "sortNum": 140000,
+            "created": "2024-03-01T02:13:01.271Z",
+            "modified": "2024-03-01T14:39:20.932Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "lastPassword",
+                        "value": "87654321"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "name",
+                        "value": "Juan",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "16cf592f-90da-4556-ba45-5242de890f53",
+            "colId": "b26ee810-9627-493f-8be6-049516a828f6",
+            "containerId": "82dcb7fa-88d0-45b1-8b0a-a6f33454fba9",
+            "name": "getMyUser",
+            "url": "/user/getMyUser",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-03-01T14:35:53.279Z",
+            "modified": "2024-03-01T14:37:12.500Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2880"
+        }
+    }
+}

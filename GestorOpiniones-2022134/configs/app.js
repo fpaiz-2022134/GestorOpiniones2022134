@@ -10,6 +10,7 @@ import {config} from 'dotenv'
 import userRoutes from '../src/user/user.routes.js'
 import publicationRoutes from '../src/publication/publication.routes.js'
 import commentRoutes from '../src/comment/comment.routes.js'
+import categoryRoutes from '../src/category/category.routes.js'
 
 //Configurations
 const app = express() //Creamos el servidor
@@ -30,6 +31,7 @@ app.use(morgan('dev'))
 app.use('/user', userRoutes)
 app.use('/publication', publicationRoutes )
 app.use('/comment', commentRoutes)
+app.use('/category', categoryRoutes)
 
 //Starting the server
 

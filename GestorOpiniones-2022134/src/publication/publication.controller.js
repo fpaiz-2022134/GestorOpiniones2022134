@@ -28,13 +28,34 @@ export const createPost = async(req, res) =>{
 
 export const getPosts = async(req, res)=>{
     try {
-        const posts = await Publication.find().populate('author', ['name', 'email','-_id'])
+        const posts = await Publication.find().populate('author', ['name', 'email','-_id']).populate('category', ['title', '-_id'])
         return res.send(posts)
     } catch (err) {
         console.error(err)
         return res.status(500).send({ message: 'Error getting the posts' })
     }
 }
+
+export const getMyPosts =async(req, res)=>{
+    try{
+        
+        let data = req.body
+
+        const posts = await Publication.find({author: data.author}) 
+        console.log(posts)
+        for (let i = 0; i < posts.length; i++) {
+            let comments = await Comment.find({publication: posts._id}).populate('publication', ['title', 'category', 'mainText','author']).populate('author', ['name', 'email'])
+            return res.send(comments) 
+        }
+        
+        /* return res.send([posts, comments]) */
+        
+    }catch(err){
+        console.error(err)
+        return res.status(500).send({message: 'Error getting your posts'})
+    }
+}
+
 
 export const updatePost = async(req, res)=>{
     try {

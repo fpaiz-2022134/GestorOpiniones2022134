@@ -1,49 +1,49 @@
 {
     "client": "Thunder Client",
     "collectionName": "GestorOpiniones",
-    "dateExported": "2024-03-01T23:16:31.153Z",
+    "dateExported": "2024-03-02T16:46:51.145Z",
     "version": "1.1",
     "folders": [
         {
-            "_id": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "user",
             "containerId": "",
-            "created": "2024-03-01T19:16:28.489Z",
+            "created": "2024-03-02T03:48:17.046Z",
             "sortNum": 10000
         },
         {
-            "_id": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "publication",
             "containerId": "",
-            "created": "2024-03-01T19:16:28.490Z",
+            "created": "2024-03-02T03:48:17.047Z",
             "sortNum": 20000
         },
         {
-            "_id": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "comment",
             "containerId": "",
-            "created": "2024-03-01T19:16:28.491Z",
+            "created": "2024-03-02T03:48:17.048Z",
             "sortNum": 30000
         },
         {
-            "_id": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "category",
             "containerId": "",
-            "created": "2024-03-01T19:17:59.759Z",
+            "created": "2024-03-02T03:48:17.049Z",
             "sortNum": 40000
         }
     ],
     "requests": [
         {
-            "_id": "a056bfb9-17a1-40d5-88ef-8413ea8beb98",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "b19faadf-e558-4158-a4b3-403526bd80dc",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "register",
             "url": "/user/register",
             "method": "POST",
             "sortNum": 10000,
-            "created": "2024-03-01T19:16:28.489Z",
-            "modified": "2024-03-01T19:16:28.489Z",
+            "created": "2024-03-02T03:48:17.047Z",
+            "modified": "2024-03-02T16:22:48.223Z",
             "headers": [],
             "params": [],
             "body": {
@@ -60,11 +60,11 @@
                     },
                     {
                         "name": "username",
-                        "value": "fpaiz3"
+                        "value": "fpaiz"
                     },
                     {
                         "name": "email",
-                        "value": "fpaiz3@gmail.com"
+                        "value": "fpaiz@gmail.com"
                     },
                     {
                         "name": "password",
@@ -83,15 +83,15 @@
             "tests": []
         },
         {
-            "_id": "cdd6c81f-25fe-4307-bdae-0583636b3760",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "208a97dd-2213-41c6-87da-a6bf6374391c",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "login",
             "url": "/user/login",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-01T19:16:28.490Z",
-            "modified": "2024-03-01T19:29:44.290Z",
+            "created": "2024-03-02T03:48:17.048Z",
+            "modified": "2024-03-02T16:45:05.994Z",
             "headers": [],
             "params": [],
             "body": {
@@ -104,7 +104,7 @@
                     },
                     {
                         "name": "password",
-                        "value": "87654321"
+                        "value": "12345678"
                     },
                     {
                         "name": "email",
@@ -116,19 +116,19 @@
             "tests": []
         },
         {
-            "_id": "f3843458-fd94-437e-9c0c-4a4caf99e52d",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "65fbfa6c-44ba-415d-93a7-c3cf9ffb27ff",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "update",
-            "url": "/user/update/65e1d84dd4688e2664b7e0fb",
+            "url": "/user/update/65e3524bd1e2a66c4aae8d6e",
             "method": "PUT",
             "sortNum": 30000,
-            "created": "2024-03-01T19:16:28.491Z",
-            "modified": "2024-03-01T19:16:28.491Z",
+            "created": "2024-03-02T03:48:17.049Z",
+            "modified": "2024-03-02T16:24:11.063Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTI5OTg1NCwiZXhwIjoxNzA5MzEwNjU0fQ.ziHogtOGyOVuuTTBs5GR91f1lIePLJ-0odPacSgwi04"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
@@ -136,16 +136,6 @@
                 "type": "formencoded",
                 "raw": "",
                 "form": [
-                    {
-                        "name": "lastPassword",
-                        "value": "12345678",
-                        "isDisabled": true
-                    },
-                    {
-                        "name": "password",
-                        "value": "87654321",
-                        "isDisabled": true
-                    },
                     {
                         "name": "name",
                         "value": "Franco Alejandro"
@@ -159,19 +149,19 @@
             "tests": []
         },
         {
-            "_id": "da063f14-f333-46d2-b5f7-880cf35c375f",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "9f702b20-2130-403a-8d22-8c4e261e95ed",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "createPost",
             "url": "/publication/createPost",
             "method": "POST",
             "sortNum": 40000,
-            "created": "2024-03-01T19:16:28.492Z",
-            "modified": "2024-03-01T19:31:16.202Z",
+            "created": "2024-03-02T03:48:17.050Z",
+            "modified": "2024-03-02T16:35:03.320Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzIxMzg0LCJleHAiOjE3MDkzMzIxODR9.mjkKOLIDJTd50DZpTJIp90zxkEk0FAVat9ihpi8Bi2c"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
@@ -181,53 +171,53 @@
                 "form": [
                     {
                         "name": "title",
-                        "value": "La Casa Blanca pide dejar de usar lenguajes de programación basados en C/C++"
+                        "value": "Telus esta contratando desarrolladores."
                     },
                     {
                         "name": "category",
-                        "value": "65e22bbe73a33f809dfc4bc2"
+                        "value": "65e2a485464acc0aa7d48110"
                     },
                     {
                         "name": "mainText",
-                        "value": "En su lugar, el gobierno estadounidense pide apostar por Rust, C#, JavaScript."
+                        "value": "La empresa internacional busca programadores que sepan hablar inglés."
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "a0610cfd-f570-4a89-9155-22b4a057e9de",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "582669e6-78a4-4c93-826d-e8d5104a4cf4",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "getPosts",
             "url": "/publication/getPosts",
             "method": "GET",
             "sortNum": 50000,
-            "created": "2024-03-01T19:16:28.493Z",
-            "modified": "2024-03-01T22:52:09.872Z",
+            "created": "2024-03-02T03:48:17.051Z",
+            "modified": "2024-03-02T16:35:18.833Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzMwNDg5LCJleHAiOjE3MDkzNDEyODl9.fIaH0T2VH0JAXw9lR6BFnZj9GYqyfnEY_H5BlxzQ7-8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "d29d0c23-e953-49cf-8642-d73796ebbb9d",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "58162383-9ab5-419f-be74-9a50fd0725b7",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "updatePost",
-            "url": "/publication/updatePost/65e0d2597578a344e01ba7e7",
+            "url": "/publication/updatePost/65e09c6cff72864413ae5078",
             "method": "PUT",
             "sortNum": 60000,
-            "created": "2024-03-01T19:16:28.494Z",
-            "modified": "2024-03-01T22:51:39.891Z",
+            "created": "2024-03-02T03:48:17.052Z",
+            "modified": "2024-03-02T16:38:44.000Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzMwNDg5LCJleHAiOjE3MDkzNDEyODl9.fIaH0T2VH0JAXw9lR6BFnZj9GYqyfnEY_H5BlxzQ7-8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc1MDcsImV4cCI6MTcwOTQwODMwN30.UsfwYo1v_kCNeGyqZnMCpbm_J4ZONZ5e74k1KXtEwTc"
                 }
             ],
             "params": [],
@@ -237,49 +227,49 @@
                 "form": [
                     {
                         "name": "category",
-                        "value": "65e22bbe73a33f809dfc4bc2"
+                        "value": "65e2a485464acc0aa7d48110"
                     },
                     {
                         "name": "title",
-                        "value": "La Casa Blanca exige dejar de usar lenguajes basados en C/C++"
+                        "value": "Hacen falta programadores en call centers para desarrollo."
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "cd9fbe98-5ecd-4d3c-9e47-866272d63ee7",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "870bdd21-42a3-4492-9944-0140797d59f8",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "deletePost",
-            "url": "/publication/deletePost/65e1dac8d4688e2664b7e10f",
+            "url": "/publication/deletePost/65e2b3d81f9c1dfb327cb51f",
             "method": "DELETE",
             "sortNum": 70000,
-            "created": "2024-03-01T19:16:28.495Z",
-            "modified": "2024-03-01T19:16:28.495Z",
+            "created": "2024-03-02T03:48:17.053Z",
+            "modified": "2024-03-02T16:39:48.440Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxZDg0ZGQ0Njg4ZTI2NjRiN2UwZmIiLCJ1c2VybmFtZSI6ImZwYWl6MyIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejNAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTMwMTE1NywiZXhwIjoxNzA5MzExOTU3fQ.41cBhAxZlysGxm39dK1d7Iipliml2T10UAbZ4s0JCqc"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc1MDcsImV4cCI6MTcwOTQwODMwN30.UsfwYo1v_kCNeGyqZnMCpbm_J4ZONZ5e74k1KXtEwTc"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "82076cc1-c130-4716-89c6-d92b41d51a0a",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "396452ab-393d-4692-b12c-78137ca4ffe7",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "createComment",
             "url": "/comment/createComment",
             "method": "POST",
             "sortNum": 80000,
-            "created": "2024-03-01T19:16:28.496Z",
-            "modified": "2024-03-01T19:16:28.496Z",
+            "created": "2024-03-02T03:48:17.054Z",
+            "modified": "2024-03-02T16:41:33.486Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc2MjQsImV4cCI6MTcwOTQwODQyNH0.RDOMG3QE6WrEKFeLlZMHlgteDAxHuKlL2Ek-snc9Pao"
                 }
             ],
             "params": [],
@@ -289,82 +279,82 @@
                 "form": [
                     {
                         "name": "text",
-                        "value": "Estoy de acuerdo, debemos detener la IA."
+                        "value": "Yo trabajé en Telus y si hablas inglés pagan bien."
                     },
                     {
                         "name": "publication",
-                        "value": "65e09c6cff72864413ae5078"
+                        "value": "65e355370c09f811b0cf5b19"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "59891642-3345-441c-801e-b0e3b218b1c4",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "34e57494-a95e-428f-aafc-103a33423bb1",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "test",
             "url": "/comment/test",
             "method": "GET",
             "sortNum": 90000,
-            "created": "2024-03-01T19:16:28.497Z",
-            "modified": "2024-03-01T19:16:28.497Z",
+            "created": "2024-03-02T03:48:17.055Z",
+            "modified": "2024-03-02T03:48:17.055Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "dcaeac3d-b1f2-4a15-8ab7-efea9d072b0a",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "3acceb7d-955b-4227-9a7a-252fd10566a5",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "getComments",
             "url": "/comment/getComments",
             "method": "GET",
             "sortNum": 100000,
-            "created": "2024-03-01T19:16:28.498Z",
-            "modified": "2024-03-01T19:16:28.498Z",
+            "created": "2024-03-02T03:48:17.056Z",
+            "modified": "2024-03-02T16:41:55.670Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc2MjQsImV4cCI6MTcwOTQwODQyNH0.RDOMG3QE6WrEKFeLlZMHlgteDAxHuKlL2Ek-snc9Pao"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "8ca7a382-5f7b-44b6-9db8-684937fdd5d8",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "269fc3f8-2f03-4b42-b196-0b8537dc5ab8",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "getMyComments",
             "url": "/comment/getMyComments",
             "method": "GET",
             "sortNum": 110000,
-            "created": "2024-03-01T19:16:28.499Z",
-            "modified": "2024-03-01T19:16:28.499Z",
+            "created": "2024-03-02T03:48:17.057Z",
+            "modified": "2024-03-02T16:42:50.500Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDE1NzYsImV4cCI6MTcwOTMxMjM3Nn0.dedzHJMv0Cjkfh2Vwk9Uo_hWwLi0ji7pQF6n4g62TSg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc2MjQsImV4cCI6MTcwOTQwODQyNH0.RDOMG3QE6WrEKFeLlZMHlgteDAxHuKlL2Ek-snc9Pao"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "e5734bee-72a9-441e-bc03-3c0178b4b7ed",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "e6b50c51-54de-446d-817b-8437693fd41d",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "updateComment",
-            "url": "/comment/updateComment/65e1e13432ba31a0ae259077",
+            "url": "/comment/updateComment/65e356980c09f811b0cf5b3d",
             "method": "PUT",
             "sortNum": 120000,
-            "created": "2024-03-01T19:16:28.500Z",
-            "modified": "2024-03-01T19:16:28.500Z",
+            "created": "2024-03-02T03:48:17.058Z",
+            "modified": "2024-03-02T16:45:52.954Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI3OTcsImV4cCI6MTcwOTMxMzU5N30.x-sF4puBN71qY7hQqbtkxbaiTjYQ14eSVBQ7J5rPUjM"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc5MDcsImV4cCI6MTcwOTQwODcwN30.y5pEBLfjtIHDHCb8Hh6Ih-GgmaEuy_AbP7Gc3snhkns"
                 }
             ],
             "params": [],
@@ -374,45 +364,45 @@
                 "form": [
                     {
                         "name": "text",
-                        "value": "Pienso que los programadores pueden encargarse de eso."
+                        "value": "Yo trabajé en Telus en WTC."
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "7b2a484c-d03d-41c8-bfce-d85c36ad55ac",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f25b066f-f75d-4538-a33e-2c48c82d118a",
+            "_id": "ff839943-5c6e-45cf-b498-6dcf3f029548",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "5f69b780-dbe4-4a22-9b82-2275def2402f",
             "name": "deleteComment",
-            "url": "/comment/deleteComment/65e1e03ea44311d1dc65f8d1",
+            "url": "/comment/deleteComment/65e1e006a44311d1dc65f8cb",
             "method": "DELETE",
             "sortNum": 130000,
-            "created": "2024-03-01T19:16:28.501Z",
-            "modified": "2024-03-01T19:16:28.501Z",
+            "created": "2024-03-02T03:48:17.059Z",
+            "modified": "2024-03-02T16:46:36.622Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzOTc5MDcsImV4cCI6MTcwOTQwODcwN30.y5pEBLfjtIHDHCb8Hh6Ih-GgmaEuy_AbP7Gc3snhkns"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "46601dc6-60eb-4495-8914-7cbf5e6c7de2",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "56096067-2604-4025-a56c-2da18605f057",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "updatePassword",
-            "url": "/user/updatePassword/65df40cfd202d402ec1d1bce",
+            "url": "/user/updatePassword/65e3524bd1e2a66c4aae8d6e",
             "method": "PUT",
             "sortNum": 140000,
-            "created": "2024-03-01T19:16:28.502Z",
-            "modified": "2024-03-01T19:16:28.502Z",
+            "created": "2024-03-02T03:48:17.060Z",
+            "modified": "2024-03-02T16:24:54.936Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
@@ -422,65 +412,65 @@
                 "form": [
                     {
                         "name": "lastPassword",
-                        "value": "87654321"
-                    },
-                    {
-                        "name": "password",
                         "value": "12345678"
                     },
                     {
-                        "name": "name",
-                        "value": "Juan",
-                        "isDisabled": true
+                        "name": "password",
+                        "value": "87654321"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "a515552b-8e5d-4ac1-a1d3-898dd593d29b",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "03ab36d8-7b76-4930-bb91-1d766799f7b8",
+            "_id": "cb9c82e6-6220-4881-91f4-0d77c98910df",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "e0f84582-1db2-43d4-8634-2b84c8bb3806",
             "name": "getMyUser",
             "url": "/user/getMyUser",
             "method": "GET",
             "sortNum": 150000,
-            "created": "2024-03-01T19:16:28.503Z",
-            "modified": "2024-03-01T19:16:28.503Z",
+            "created": "2024-03-02T03:48:17.061Z",
+            "modified": "2024-03-02T16:25:10.519Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmNDBjZmQyMDJkNDAyZWMxZDFiY2UiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gMiIsImVtYWlsIjoiZnBhaXoyQGdtYWlsLmNvbSIsInJvbGUiOiJDTElFTlQiLCJpYXQiOjE3MDkzMDI5NDksImV4cCI6MTcwOTMxMzc0OX0.zEQ7HkRlx-XFkwrV7IMo2tHrC_q9Q00AoWml-86KJfA"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
             "tests": []
         },
         {
-            "_id": "fad1f132-ef37-4580-a97a-0e0da65c23e6",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "905ea1c4-2946-458f-a7c2-4327336c04f4",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "test",
             "url": "/category/test",
             "method": "GET",
             "sortNum": 160000,
-            "created": "2024-03-01T19:18:08.317Z",
-            "modified": "2024-03-01T19:18:17.646Z",
+            "created": "2024-03-02T03:48:17.062Z",
+            "modified": "2024-03-02T03:48:17.062Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "c3035f13-8c80-4c36-9fcf-ff8cc8c9f87a",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "65eb449c-2432-48e4-a4b0-6668e140ecd8",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "addCategory",
             "url": "/category/addCategory",
             "method": "POST",
             "sortNum": 170000,
-            "created": "2024-03-01T19:24:16.562Z",
-            "modified": "2024-03-01T19:25:48.935Z",
-            "headers": [],
+            "created": "2024-03-02T03:48:17.063Z",
+            "modified": "2024-03-02T16:26:00.306Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
+                }
+            ],
             "params": [],
             "body": {
                 "type": "formencoded",
@@ -488,7 +478,7 @@
                 "form": [
                     {
                         "name": "title",
-                        "value": "Tecnología"
+                        "value": "Tecnología2"
                     },
                     {
                         "name": "description",
@@ -499,19 +489,19 @@
             "tests": []
         },
         {
-            "_id": "01a91ad2-e55f-49bb-99c3-8759ebe6f473",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "f22a5735-df62-43e8-80cd-ff1561df8fc1",
+            "_id": "c0298228-0093-49a3-ba51-e49d21e3c485",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "95c52c1d-83e5-4798-a3a2-6dd5afabb193",
             "name": "getMyPost",
             "url": "/publication/getMyPosts",
             "method": "GET",
             "sortNum": 180000,
-            "created": "2024-03-01T22:00:33.498Z",
-            "modified": "2024-03-01T22:05:21.834Z",
+            "created": "2024-03-02T03:48:17.064Z",
+            "modified": "2024-03-02T16:43:46.592Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzMwNDg5LCJleHAiOjE3MDkzNDEyODl9.fIaH0T2VH0JAXw9lR6BFnZj9GYqyfnEY_H5BlxzQ7-8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NzgwOSwiZXhwIjoxNzA5NDA4NjA5fQ.HXHOoCqEajRTMOPNDwJfMYauaSE9KcVdopOp-NtdE-s"
                 }
             ],
             "params": [],
@@ -521,22 +511,22 @@
                 "form": [
                     {
                         "name": "author",
-                        "value": "65e0d22a7578a344e01ba7e3"
+                        "value": "65e3524bd1e2a66c4aae8d6e"
                     }
                 ]
             },
             "tests": []
         },
         {
-            "_id": "2fd2856a-ae67-43eb-8d5d-b1d5b7f479c5",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "7258929c-286b-4a1e-b376-7d9fe75e0840",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "getCategories",
             "url": "/category/getCategories",
             "method": "GET",
             "sortNum": 190000,
-            "created": "2024-03-01T22:28:00.306Z",
-            "modified": "2024-03-01T22:29:44.170Z",
+            "created": "2024-03-02T03:48:17.065Z",
+            "modified": "2024-03-02T03:48:17.065Z",
             "headers": [
                 {
                     "name": "token",
@@ -547,19 +537,19 @@
             "tests": []
         },
         {
-            "_id": "af6bd14d-89d5-489b-bf4d-dafa8c6ad767",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "a5b8b03a-24ae-41f7-b6d7-703b11136342",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "updateCategory",
-            "url": "/category/updateCategory/65e22bbe73a33f809dfc4bc2",
+            "url": "/category/updateCategory/65e2a485464acc0aa7d48110",
             "method": "PUT",
             "sortNum": 200000,
-            "created": "2024-03-01T22:30:02.359Z",
-            "modified": "2024-03-01T22:49:29.599Z",
+            "created": "2024-03-02T03:48:17.066Z",
+            "modified": "2024-03-02T16:32:58.570Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzMwNDg5LCJleHAiOjE3MDkzNDEyODl9.fIaH0T2VH0JAXw9lR6BFnZj9GYqyfnEY_H5BlxzQ7-8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],
@@ -576,19 +566,19 @@
             "tests": []
         },
         {
-            "_id": "68dd240f-b2d7-4cd0-b8b8-950d3a8e6b80",
-            "colId": "9c15d0b9-3850-4ac8-b656-cb3abdfb52d9",
-            "containerId": "6b89d7d8-bae9-4276-a2d2-5235ca5aa53d",
+            "_id": "7b65f768-14f9-4750-a5b1-66e4a0dae8ac",
+            "colId": "fe6fcf38-ad2e-4eca-b127-165cdd7d9d57",
+            "containerId": "6d1ec964-acb2-4e22-83ce-34802183d8d2",
             "name": "deleteCategory",
-            "url": "/category/deleteCategory/65e22bbe73a33f809dfc4bc2",
+            "url": "/category/deleteCategory/65e2a485464acc0aa7d48110",
             "method": "DELETE",
             "sortNum": 210000,
-            "created": "2024-03-01T22:45:19.445Z",
-            "modified": "2024-03-01T22:46:35.094Z",
+            "created": "2024-03-02T03:48:17.067Z",
+            "modified": "2024-03-02T16:33:19.790Z",
             "headers": [
                 {
                     "name": "token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUwZDIyYTc1NzhhMzQ0ZTAxYmE3ZTMiLCJ1c2VybmFtZSI6ImZwYWl6MiIsIm5hbWUiOiJGcmFuY28gQWxlamFuZHJvIDIiLCJlbWFpbCI6ImZwYWl6MkBnbWFpbC5jb20iLCJyb2xlIjoiQ0xJRU5UIiwiaWF0IjoxNzA5MzMwNDg5LCJleHAiOjE3MDkzNDEyODl9.fIaH0T2VH0JAXw9lR6BFnZj9GYqyfnEY_H5BlxzQ7-8"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzNTI0YmQxZTJhNjZjNGFhZThkNmUiLCJ1c2VybmFtZSI6ImZwYWl6NCIsIm5hbWUiOiJGcmFuY28gIiwiZW1haWwiOiJmcGFpejRAZ21haWwuY29tIiwicm9sZSI6IkNMSUVOVCIsImlhdCI6MTcwOTM5NjU4MywiZXhwIjoxNzA5NDA3MzgzfQ.87elmvzAG7WqlhSveztaCiYePenYsprNT9LB_6mMABs"
                 }
             ],
             "params": [],

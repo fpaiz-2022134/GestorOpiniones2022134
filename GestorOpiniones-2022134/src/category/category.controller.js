@@ -51,7 +51,7 @@ export const updateCategory = async(req, res)=>{
         )
         if(!updatedCategory) return res.status(404).send({message: 'Category has not been updated.'})
         //Replying
-        return res.status(200).send({message: 'Comment updated successfully.'})
+        return res.status(200).send({message: 'Category updated successfully.'})
     } catch (err) {
         console.error(err)
         return res.status(500).send({ message: 'Error updating the comment' })
@@ -66,7 +66,11 @@ export const deleteCategory = async(req, res)=>{
         //Finding the posts by the category
         let posts = await Publication.find({category: id})
         console.log(posts)
-        if(posts != null) return res.status(400).send({message: 'You cannot delete this category because it has posts.'})
+        for(let post of posts){
+            if(post.category._id == id) return res.status(400).send({message: 'You cannot delete this category because it has posts.'})
+        }
+
+        /* if(posts) return res.status(400).send({message: 'You cannot delete this category because it has posts.'}) */
         //Finding and deleting posts
         let deletedPost = await Category.findByIdAndDelete({_id: id})
         //Validation
